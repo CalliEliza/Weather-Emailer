@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/CalliEliza/Weather-Emailer.git' ]
+2 info using npm@3.10.10
+3 info using node@v7.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData https://github.com/CalliEliza/Weather-Emailer.git
+8 silly fetchOtherPackageData https://github.com/CalliEliza/Weather-Emailer.git
+9 silly cache add args [ 'https://github.com/CalliEliza/Weather-Emailer.git', null ]
+10 verbose cache add spec https://github.com/CalliEliza/Weather-Emailer.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://github.com/CalliEliza/Weather-Emailer.git',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://github.com/CalliEliza/Weather-Emailer.git',
+11 silly cache add   spec: 'git+https://github.com/CalliEliza/Weather-Emailer.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:CalliEliza/Weather-Emailer.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/CalliEliza/Weather-Emailer.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/CalliEliza/Weather-Emailer.git',
+11 silly cache add      gitUrl: 'git://github.com/CalliEliza/Weather-Emailer.git',
+11 silly cache add      shortcut: 'github:CalliEliza/Weather-Emailer',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/CalliEliza/Weather-Emailer/master/package.json' } }
+12 verbose addRemoteGit caching https://github.com/CalliEliza/Weather-Emailer.git
+13 verbose addRemoteGit git+https://github.com/CalliEliza/Weather-Emailer.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/CalliEliza/Weather-Emailer.git via git+https://github.com/CalliEliza/Weather-Emailer.git
+15 verbose tryClone git-https-github-com-CalliEliza-Weather-Emailer-git-d1a3639f not in flight; caching
+16 verbose correctMkdir /home/chewy/.npm/_git-remotes correctMkdir not in flight; initializing
+17 verbose makeDirectory /home/chewy/.npm/_git-remotes creation not in flight; initializing
+18 silly makeDirectory /home/chewy/.npm/_git-remotes uid: 1000 gid: 1000
+19 info git [ 'clone',
+19 info git   '--template=/home/chewy/.npm/_git-remotes/_templates',
+19 info git   '--mirror',
+19 info git   'https://github.com/CalliEliza/Weather-Emailer.git',
+19 info git   '/home/chewy/.npm/_git-remotes/git-https-github-com-CalliEliza-Weather-Emailer-git-d1a3639f' ]
+20 verbose mirrorRemote git+https://github.com/CalliEliza/Weather-Emailer.git git clone https://github.com/CalliEliza/Weather-Emailer.git
+21 verbose correctMkdir /home/chewy/.npm/_git-remotes correctMkdir not in flight; initializing
+22 verbose setPermissions git+https://github.com/CalliEliza/Weather-Emailer.git set permissions on /home/chewy/.npm/_git-remotes/git-https-github-com-CalliEliza-Weather-Emailer-git-d1a3639f
+23 verbose resolveHead git+https://github.com/CalliEliza/Weather-Emailer.git original treeish: master
+24 info git [ 'rev-list', '-n1', 'master' ]
+25 silly resolveHead git+https://github.com/CalliEliza/Weather-Emailer.git resolved treeish: a9d2cff463643533efa107fb0f9e73e5c9d6edd6
+26 verbose resolveHead git+https://github.com/CalliEliza/Weather-Emailer.git resolved Git URL: git+https://github.com/CalliEliza/Weather-Emailer.git#a9d2cff463643533efa107fb0f9e73e5c9d6edd6
+27 silly resolveHead Git working directory: /tmp/npm-5228-24996327/git-cache-e8e80f0a/a9d2cff463643533efa107fb0f9e73e5c9d6edd6
+28 info git [ 'clone',
+28 info git   '/home/chewy/.npm/_git-remotes/git-https-github-com-CalliEliza-Weather-Emailer-git-d1a3639f',
+28 info git   '/tmp/npm-5228-24996327/git-cache-e8e80f0a/a9d2cff463643533efa107fb0f9e73e5c9d6edd6' ]
+29 verbose cloneResolved git+https://github.com/CalliEliza/Weather-Emailer.git clone Cloning into '/tmp/npm-5228-24996327/git-cache-e8e80f0a/a9d2cff463643533efa107fb0f9e73e5c9d6edd6'...
+29 verbose cloneResolved done.
+30 info git [ 'checkout', 'a9d2cff463643533efa107fb0f9e73e5c9d6edd6' ]
+31 verbose checkoutTreeish git+https://github.com/CalliEliza/Weather-Emailer.git checkout Note: checking out 'a9d2cff463643533efa107fb0f9e73e5c9d6edd6'.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+31 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+31 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+31 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish   git checkout -b <new-branch-name>
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish HEAD is now at a9d2cff... Update README.md
+32 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+33 verbose updateSubmodules git+https://github.com/CalliEliza/Weather-Emailer.git submodule update
+34 verbose addLocalDirectory /home/chewy/.npm/weather_emailer/1.0.0/package.tgz not in flight; packing
+35 verbose correctMkdir /home/chewy/.npm correctMkdir not in flight; initializing
+36 verbose tar pack [ '/home/chewy/.npm/weather_emailer/1.0.0/package.tgz',
+36 verbose tar pack   '/tmp/npm-5228-24996327/git-cache-e8e80f0a/a9d2cff463643533efa107fb0f9e73e5c9d6edd6' ]
+37 verbose tarball /home/chewy/.npm/weather_emailer/1.0.0/package.tgz
+38 verbose folder /tmp/npm-5228-24996327/git-cache-e8e80f0a/a9d2cff463643533efa107fb0f9e73e5c9d6edd6
+39 verbose addLocalTarball adding from inside cache /home/chewy/.npm/weather_emailer/1.0.0/package.tgz
+40 verbose correctMkdir /home/chewy/.npm correctMkdir not in flight; initializing
+41 verbose addRemoteGit data._from: git+https://github.com/CalliEliza/Weather-Emailer.git
+42 verbose addRemoteGit data._resolved: git+https://github.com/CalliEliza/Weather-Emailer.git#a9d2cff463643533efa107fb0f9e73e5c9d6edd6
+43 silly cache afterAdd weather_emailer@1.0.0
+44 verbose afterAdd /home/chewy/.npm/weather_emailer/1.0.0/package/package.json not in flight; writing
+45 verbose correctMkdir /home/chewy/.npm correctMkdir not in flight; initializing
+46 verbose afterAdd /home/chewy/.npm/weather_emailer/1.0.0/package/package.json written
+47 silly install normalizeTree
+48 silly loadCurrentTree Finishing
+49 silly loadIdealTree Starting
+50 silly install loadIdealTree
+51 silly cloneCurrentTree Starting
+52 silly install cloneCurrentTreeToIdealTree
+53 silly cloneCurrentTree Finishing
+54 silly loadShrinkwrap Starting
+55 silly install loadShrinkwrap
+56 silly loadShrinkwrap Finishing
+57 silly loadAllDepsIntoIdealTree Starting
+58 silly install loadAllDepsIntoIdealTree
+59 silly rollbackFailedOptional Starting
+60 silly rollbackFailedOptional Finishing
+61 silly runTopLevelLifecycles Finishing
+62 silly install printInstalled
+63 verbose stack Error: Refusing to install weather_emailer as a dependency of itself
+63 verbose stack     at checkSelf (/usr/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+63 verbose stack     at Array.<anonymous> (/usr/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+63 verbose stack     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+63 verbose stack     at chain (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+63 verbose stack     at /usr/lib/node_modules/npm/lib/install/validate-args.js:16:5
+63 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+63 verbose stack     at Array.forEach (native)
+63 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+63 verbose stack     at Array.forEach (native)
+63 verbose stack     at asyncMap (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+64 verbose cwd /home/chewy/atom_workspace/weather_emailer
+65 error Linux 4.4.0-21-generic
+66 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "https://github.com/CalliEliza/Weather-Emailer.git"
+67 error node v7.3.0
+68 error npm  v3.10.10
+69 error code ENOSELF
+70 error Refusing to install weather_emailer as a dependency of itself
+71 error If you need help, you may report this error at:
+71 error     <https://github.com/npm/npm/issues>
+72 verbose exit [ 1, true ]
